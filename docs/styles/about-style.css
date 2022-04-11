@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f4;
+}
+.section-1 {
+    background-image: url('../sprites/about_bg_01.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 0% 10%;
+}
+
+.header {
+    text-align: center;
+}
+
+.center-border {
+    background-color: white;
+    border-color: rgb(233,233,233);
+}
+
+.section-4 {
+    background-color: gray;
+}

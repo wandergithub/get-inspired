@@ -17,7 +17,7 @@
 }
 
 .center-border {
-    border: 3px;
+    border: 2px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
     background-color: #f7f7f7;
@@ -36,7 +36,7 @@
 }
 
 .icon-list {
-    width: 28px;
+    width: 30px;
     height: 28px;
     margin: 15px 0px 0px 21px;
 }
