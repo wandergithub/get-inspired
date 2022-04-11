@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'cocogoose-light';
+    src: url('https://fonts2u.com/download/cocogoose-pro-thin.font');
+}
+
+@font-face {
+    font-family: 'cocogoose-bold';
+    src: url('http://fonts.cdnfonts.com/css/cocogoose');
+}
+
+.header {
+    color: #ec5242;
+}
+
+.general-margin {
+    margin: 0px 15px 21px 15px;
+}
+
+.center-border {
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: #f7f7f7;
+}
+
+.h3 {
+    font-family: 'cocogoose-light', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.h1 {
+    font-family: 'cocogoose-bold' , sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icon-list {
+    width: 28px;
+    height: 28px;
+    margin: 15px 0px 0px 21px;
+}
+
+.menu-bar {
+    height: 84px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('sprites/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('sprites/asset54.png');
+    background-repeat: repeat;
+    background-color: #272a32;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.guide-bar {
+    width: 53px;
+    height: 16px;
+    border-bottom: 1px solid #ef513c;
+    margin: 0 auto 54px;
+}
+
+.article {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.16);
+}
