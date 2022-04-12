@@ -7,7 +7,9 @@
     font-family: 'cocogoose-bold';
     src: url('http://fonts.cdnfonts.com/css/cocogoose');
 }
-
+body {
+    font-family: 'cocogoose-light', sans-serif;
+}
 .header {
     color: #ec5242;
 }
@@ -48,7 +50,7 @@
 .section-1 {
     display: flex;
     flex-direction: column;
-    background-image: url('sprites/bg.png');
+    background-image: url('../sprites/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -56,12 +58,15 @@
 .section-2 {
     display: flex;
     flex-direction: column;
-    background-image: url('sprites/asset54.png');
+    background-image: url('../sprites/asset54.png');
     background-repeat: repeat;
     background-color: #272a32;
     color: white;
+    position: absolute;
+    left: 0%;
     justify-content: center;
     align-content: center;
+    width: 100vw;
 }
 
 .guide-bar {
@@ -73,5 +78,57 @@
 
 .article {
     display: flex;
+    align-items: center;
+    justify-content: space-between ;
     background-color: rgba(255, 255, 255, 0.16);
+    padding: 16px 24px;
+    gap: 21px;
+    font-size: small;
+    line-height: 167%;
+}
+
+.article-img {
+    width: 20%;
+    height: 20%;
+}
+
+.normal-font {
+    font-family: 'cocogoose-light' , sans-serif;
+    color: gray;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+.bold-hash {
+    font-weight: 900;
+    color: rgb(75, 75, 75);
+    font-size: 30px;
+}
+
+.bold-hash-2 {
+    font-weight: 400;
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 41px 0px 0px;
+}
+
+.text-overflow {
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.topic-style {
+    font-size: 20px;
+    color: #ec5242;
+    margin-right: 35px;
 }
