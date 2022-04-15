@@ -6,7 +6,7 @@
 
 ## App screenshot 
 
-[App Screenshot](https://github.com/wandergithub/get-inspired/blob/master/app_screenshot.png)
+[App Screenshot](https://github.com/wandergithub/get-inspired/blob/capstone-project/app_screenshot.png)
 
 ## Built With
 
