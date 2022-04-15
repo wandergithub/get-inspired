@@ -1,56 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Get Inspired
 
-> Description the project.
+> A compilation of resources about programmers and their acoomplishments in their career. If you are looking for successful people to look up to, search for inspiration, or simple admire a good software career path and work.
 
+## App screenshot 
 
+![App ScreenShot](/app_screenshot.png?raw=true "Get Inspired")
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- JavaScript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://wandergithub.github.io/get-inspired/index.html)
 
 
-## Getting Started
+## Getting Started 🧰
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+1. Clone the main branch.
+2. Then you can open the index.html file in your prefered browser.
 
+## Author👤
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@wandergithub](https://github.com/wandergithub)
+- Twitter: [@wanderklk1](https://twitter.com/wanderklk1)
+- LinkedIn: [Wander A. Gonzalez](https://www.linkedin.com/in/wander-a-gonzalez-53127b205/)
 
 ## 🤝 Contributing
 
@@ -64,9 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This website was made by Wander Gonzalez in 2022 based on [Cindy Shin template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). Educational Purposes only.
 
 ## 📝 License
 
