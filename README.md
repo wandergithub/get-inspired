@@ -6,8 +6,7 @@
 
 ## App screenshot 
 
-[App Screenshot](https://github.com/wandergithub/get-inspired/blob/capstone-project/app_screenshot.png)
-
+![App ScreenShot](/app_screenshot.png?raw=true "Get Inspired")
 ## Built With
 
 - HTML & CSS
