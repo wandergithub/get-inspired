@@ -1,265 +1,267 @@
 .section-1 {
-    background-image: url('../sprites/about_bg_01.png');
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: 0% 10%;
-    background-color: rgb(247,247,247);
+  background-image: url('../sprites/about_bg_01.png');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 0% 10%;
+  background-color: rgb(247, 247, 247);
 }
 
 .header {
-    text-align: center;
+  text-align: center;
 }
 
 .center-border {
-    background-color: white;
-    border-color: rgb(233,233,233);
+  background-color: white;
+  border-color: rgb(233, 233, 233);
 }
 
 .center-text {
-    text-align: center;
+  text-align: center;
 }
 
 .small-text {
-    font-size: small;
+  font-size: small;
 }
 
-.section-1 > p {
-    font-weight: 300;
-    margin: auto 25px;
+.section-5 p {
+  font-size: x-small;
+  margin: 50px 30px;
+  color: #5a5a5a;
+  font-weight: 600;
+  line-height: 16px;
 }
 
-.section-1  div p {
-    margin-top: 26px;
-}
-
-.mail {
-    color: rgb(61, 61, 61);
-    font-weight: 600;
-}
-
-.contain-content {
-    width: 64.8%;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-self: center;
-    line-height: 21px;
-}
-/* Section 2 */
-.section-about-2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 0px;
-    border-bottom: 1px solid rgb(207, 207, 207);
-    align-items: center;
-}
-
-.section-about-2 h2 {
-    color: #272a31;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    line-height: 28px;  
-    font-size: 20px;
-}
-
-.section-about-2 div {
-    margin-bottom: 10px;
+.section-about-3 p {
+  margin-bottom: 30px;
+  width: 80%;
+  align-self: center;
 }
 
 .section-about-2 p {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
+}
+
+.section-about-2 h2 {
+  color: #272a31;
+  margin-top: 30px;
+  margin-bottom: 0;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.section-1 > p {
+  font-weight: 300;
+  margin: auto 25px;
+}
+
+.section-1 div p {
+  margin-top: 26px;
+}
+
+.mail {
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+}
+
+.contain-content {
+  width: 64.8%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-self: center;
+  line-height: 21px;
+}
+
+/* Section 2 */
+.section-about-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  align-items: center;
+}
+
+.section-about-2 div {
+  margin-bottom: 10px;
 }
 
 .section-about-2 img {
-    width: 87.4%;
+  width: 87.4%;
 }
+
 /* Section 3 */
 .section-about-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.section-about-3  div {
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-about-3  p {
-    margin-bottom: 30px;
-    width: 80%;
-    align-self: center;
+.section-about-3 div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-about-3 h2 {
-    font-size: 20px;
-    line-height: 28px;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 30px;
-    width: 80%;
+  font-size: 20px;
+  line-height: 28px;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 30px;
+  width: 80%;
 }
 
 .section-about-3 .a1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 12px 0px;
-    height: 190px;
-    width: 80%;
-    background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("https://thedeveloperstory.com/wp-content/uploads/2021/06/alex-kotliarskyi-ourqhrte2im-unsplash-1024x683.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-    line-height: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 12px 0;
+  height: 190px;
+  width: 80%;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("https://thedeveloperstory.com/wp-content/uploads/2021/06/alex-kotliarskyi-ourqhrte2im-unsplash-1024x683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  line-height: 24px;
 }
 
 .section-about-3 .a2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 12px 0px;
-    height: 190px;
-    width: 80%;
-    background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("https://www.csestack.org/wp-content/uploads/2016/12/Most-Influential-Computer-Programmers.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-decoration: none;
-    line-height: 24px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 12px 0;
+  height: 190px;
+  width: 80%;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("https://www.csestack.org/wp-content/uploads/2016/12/Most-Influential-Computer-Programmers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  line-height: 24px;
 }
 
 .section-about-3 a p {
-    color: white;
+  color: white;
 }
+
 /* Section 4 */
 .section-4 {
-    display: flex;
-    flex-direction: column;
-    background-color: #414246;
-    padding-bottom: 34px;
-    padding-top: 10px;
-    margin-top: 30px;
-    
+  display: flex;
+  flex-direction: column;
+  background-color: #414246;
+  padding-bottom: 34px;
+  padding-top: 10px;
+  margin-top: 30px;
 }
 
 .section-4 .guide-bar {
-    margin-bottom: 34px;
+  margin-bottom: 34px;
 }
 
 .brands {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 85%;
-    height: auto;
-    align-self: center;
-    justify-self: center;
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 85%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+  gap: 30px;
 }
 
 .brands img {
-    width: 100%;
+  width: 100%;
 }
 
 .section-4 h2 {
-    align-self: center;
-    color: white;
-    font-weight: 100;
-    font-size: 20px;
+  align-self: center;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
 }
 
 /* Section 5 */
 .section-5 {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    align-items: center;
-    justify-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  justify-items: center;
 }
 
 .section-5 img {
-    overflow: auto;
-    margin: 20px;
-}
-
-.section-5 p {
-    font-size: x-small;
-    margin: 50px 30px;
-    color: #5a5a5a;
-    font-weight: 600;
-    line-height: 16px;
+  overflow: auto;
+  margin: 20px;
 }
 
 /* Desktop only elements */
+
 /* . {
     display: none;
 } */
+
 /* Desktop version */
 @media screen and (min-width: 768px) {
-    /* mobile only elements */
-    .h3, .section-4 {
-        display: none;
-    }
-    /* Desktop style */
-    .section-1 > p {
-        width: 55%;
-        margin-bottom: 55px;
-        align-self: center;
-        text-align: center;
-        font-weight: 600;
-        line-height: 25px;
-    }
+  /* mobile only elements */
+  .h3,
+  .section-4 {
+    display: none;
+  }
 
-    .h1 {
-        margin-top: 150px;
-        margin-bottom: 60px;
-    }
-  
-    .mail {
-        margin-bottom: 80px;
-    }
+  /* Desktop style */
+  .section-1 > p {
+    width: 55%;
+    margin-bottom: 55px;
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+    line-height: 25px;
+  }
 
-    .general-margin {
-        margin: 0% 9.9%;
-    }
+  .h1 {
+    margin-top: 150px;
+    margin-bottom: 60px;
+  }
 
-    .section-about-2 img {
-        width: 30.4%;
-        margin-bottom: 80px;
-    }
+  .mail {
+    margin-bottom: 80px;
+  }
 
-    .section-about-2 h2 {
-        margin-top: 82px;
-    }
+  .general-margin {
+    margin: 0% 9.9%;
+  }
 
-    .section-5 {
-        background-color: #272a31;
-        justify-content: center;
-    }
+  .section-about-2 img {
+    width: 30.4%;
+    margin-bottom: 80px;
+  }
 
-    .section-5 p {
-        color: white;
-    }
+  .section-about-2 h2 {
+    margin-top: 82px;
+  }
 
-    .section-about-3 h2 {
-        margin-top: 82px;
-    }
+  .section-5 {
+    background-color: #272a31;
+    justify-content: center;
+    padding-bottom: 19px;
+  }
 
-    .section-about-3 div:not(.guide-bar) {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        margin-bottom: 120px;
-    }
+  .section-5 p {
+    color: white;
+  }
 
-    .section-5 {
-        padding-bottom: 19px;
-        
-    }
+  .section-about-3 h2 {
+    margin-top: 82px;
+  }
+
+  .section-about-3 div:not(.guide-bar) {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 120px;
+  }
 }
