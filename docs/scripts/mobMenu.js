@@ -42,8 +42,8 @@ function DisplayMenu() {
   join.classList.add('aLinks');
   Sponsor.classList.add('aLinks');
   News.classList.add('aLinks');
-  home.setAttribute('href', '../index.html');
-  about.setAttribute('href', 'templates/about.html');
+  home.setAttribute('href', '/get-inspired/index.html');
+  about.setAttribute('href', '/get-inspired/templates/about.html');
   program.setAttribute('href', '#topics');
   join.setAttribute('href', '#');
   Sponsor.setAttribute('href', '#');
