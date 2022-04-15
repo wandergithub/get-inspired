@@ -38,7 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This website was made by Wander Gonzalez in 2022 based on Cindy Shin template. Educational Purposes only.
+- This website was made by Wander Gonzalez in 2022 based on [Cindy Shin template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). Educational Purposes only.
 
 ## 📝 License
 
