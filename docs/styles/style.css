@@ -319,6 +319,10 @@ article {
     white-space: nowrap;
   }
 
+  .section-1 .no-margin a {
+    color: #707070;
+  }
+
   .nav-bar div a:hover {
     color: #ec5242;
     font-size: 110%;
