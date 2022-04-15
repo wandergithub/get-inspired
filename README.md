@@ -4,6 +4,9 @@
 
 > A compilation of resources about programmers and their acoomplishments in their career. If you are looking for successful people to look up to, search for inspiration, or simple admire a good software career path and work.
 
+## App screenshot 
+
+[App Screenshot](https://github.com/wandergithub/get-inspired/blob/master/app_screenshot.png)
 
 ## Built With
 
@@ -15,7 +18,7 @@
 [Live Demo Link](https://wandergithub.github.io/get-inspired/index.html)
 
 
-## Setup 🧰
+## Getting Started 🧰
 
 1. Clone the main branch.
 2. Then you can open the index.html file in your prefered browser.
