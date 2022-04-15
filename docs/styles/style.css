@@ -7,9 +7,13 @@
     font-family: 'cocogoose-bold';
     src: url('http://fonts.cdnfonts.com/css/cocogoose');
 }
+
 body {
     font-family: 'cocogoose-light', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
+
 .header {
     color: #ec5242;
 }
@@ -32,10 +36,16 @@ body {
 }
 
 .h1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
     font-family: 'cocogoose-bold' , sans-serif;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 0%;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    
 }
 
 .icon-list {
@@ -190,9 +200,80 @@ article {
     font-weight: 600;
     text-decoration: none;
 }
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.inline {
+    display: inline;
+}
+
+.speakersName {
+    font-size: 20px;
+}
+
+.speakersContribution {
+    font-size: 12px;
+    color: #ec5242;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+
+.speakersDescription {
+    font-size: 10px;
+    margin: 5px 0px;
+}
+
+.info {
+    margin: 0px 10px;
+    width: 50%;
+}
+
+.guide-speaker {
+    width: 45px;
+    border-bottom: 1px solid #d5d5d5;
+    margin: 2px;
+}
 /* Desktop only elements */
 .nav-bar, .section-4, .section-5 {
     display: none;
+}
+
+.contain {
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.exclude {
+    display: flex;
+}
+
+.more-button {
+    height: 47px;
+    margin: 30px;
+    order: 3;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(184, 184, 184);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.more-button:hover {
+    background-color: #ec53422f;
 }
 /* Desktop version */
 @media screen and (min-width: 768px) {
@@ -260,7 +341,6 @@ article {
     .nav-bar-2 div button {
         margin-right: 161px;
         height: 36px;
-        
     }
 
     .drop-shadow {
@@ -298,6 +378,7 @@ article {
     .section-2 {
         height: 500px;
         justify-content: flex-start;
+        overflow: hidden;
     }
 
     .art-hold {
@@ -343,8 +424,9 @@ article {
         background-color: #414246;
         padding-bottom: 34px;
         padding-top: 10px;
-        margin-top: 30px;
+        margin-top: 92px;
         width: 100%;
+        order: 1;
     }
 
     .section-4 .guide-bar {
@@ -379,6 +461,7 @@ article {
         background-color: white;
         align-items: center;
         justify-items: center;
+        order: 1;
     }
 
     .section-5 img {
@@ -408,5 +491,26 @@ article {
         background-color: #272a31;
         border-color: rgb(233, 114, 100);
         color: rgb(235, 116, 102);
+    }
+
+    .flex-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 23px;
+        flex: 1;
+    }
+    
+    .contain {
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .hidden div{
+        display: flex;
+    }
+
+    .more-button {
+        display: none;
     }
 }
