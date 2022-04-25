@@ -6,7 +6,7 @@
 
 ## App screenshot 
 
-![App ScreenShot](/app_screenshot.png?raw=true "Get Inspired")
+![App ScreenShot](/app_screenshots.png?raw=true "Get Inspired")
 ## Built With
 
 - HTML & CSS
