@@ -2,7 +2,7 @@
 
 # Get Inspired
 
-> A compilation of resources about programmers and their acoomplishments in their career. If you are looking for successful people to look up to, search for inspiration, or simple admire a good software career path and work.
+> This web project gives to the user a compilation of resources about programmers and their accomplishments. If you are looking for successful developers, legends on the industry to look up to, search for inspiration, or simply admire a good software career path and work this is the right web page.
 
 ## App screenshot 
 
